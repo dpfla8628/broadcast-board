@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-label="BroadcastBoard overview diagram">
+  <style>
+    .box { fill: #ffffff; stroke: #1f2937; stroke-width: 2; rx: 14; }
+    .title { font: 600 20px "Helvetica Neue", Arial, sans-serif; fill: #111827; }
+    .text { font: 14px "Helvetica Neue", Arial, sans-serif; fill: #374151; }
+    .arrow { stroke: #64748b; stroke-width: 2; marker-end: url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="box" x="40" y="70" width="260" height="120" />
+  <text class="title" x="70" y="110">Batch Crawler</text>
+  <text class="text" x="70" y="138">편성표/가격 수집</text>
+  <text class="text" x="70" y="162">정규화 + 업서트</text>
+
+  <rect class="box" x="350" y="40" width="260" height="180" />
+  <text class="title" x="380" y="90">MySQL</text>
+  <text class="text" x="380" y="118">channels / slots</text>
+  <text class="text" x="380" y="142">alerts / price</text>
+
+  <rect class="box" x="660" y="70" width="260" height="120" />
+  <text class="title" x="690" y="110">API</text>
+  <text class="text" x="690" y="138">FastAPI + SQLAlchemy</text>
+  <text class="text" x="690" y="162">/broadcasts / alerts</text>
+
+  <rect class="box" x="350" y="260" width="260" height="120" />
+  <text class="title" x="380" y="300">Web Dashboard</text>
+  <text class="text" x="380" y="328">Next.js + AntD</text>
+  <text class="text" x="380" y="352">타임라인 / 알림</text>
+
+  <line class="arrow" x1="300" y1="130" x2="350" y2="130" />
+  <line class="arrow" x1="610" y1="130" x2="660" y2="130" />
+  <line class="arrow" x1="480" y1="220" x2="480" y2="260" />
+</svg>

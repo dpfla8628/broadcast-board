@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-label="BroadcastBoard UI placeholder">
+  <style>
+    .bg { fill: #f8fafc; }
+    .panel { fill: #ffffff; stroke: #e2e8f0; stroke-width: 2; rx: 16; }
+    .title { font: 600 22px "Helvetica Neue", Arial, sans-serif; fill: #0f172a; }
+    .text { font: 14px "Helvetica Neue", Arial, sans-serif; fill: #475569; }
+    .chip { fill: #e2e8f0; rx: 10; }
+    .card { fill: #ffffff; stroke: #cbd5f5; stroke-width: 2; rx: 12; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="960" height="420" />
+  <rect class="panel" x="40" y="40" width="880" height="340" />
+
+  <text class="title" x="80" y="90">오늘/내일 홈쇼핑 편성표</text>
+  <text class="text" x="80" y="120">지금 진행중인 방송과 예정 방송을 한눈에</text>
+
+  <rect class="chip" x="80" y="150" width="80" height="28" />
+  <rect class="chip" x="170" y="150" width="80" height="28" />
+  <rect class="chip" x="260" y="150" width="80" height="28" />
+
+  <rect class="card" x="80" y="200" width="360" height="120" />
+  <rect class="card" x="470" y="200" width="360" height="120" />
+
+  <text class="text" x="100" y="230">18:30  현대홈쇼핑  LIVE</text>
+  <text class="text" x="100" y="260">정가 2,580,000 → 할인가 2,380,000</text>
+
+  <text class="text" x="490" y="230">19:30  신세계라이브</text>
+  <text class="text" x="490" y="260">정가 69,900 → 할인가 59,420</text>
+</svg>

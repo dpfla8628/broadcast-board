@@ -1,0 +1,15 @@
+/* why: UI 일관성과 가독성을 위해 스타일 의도를 명시 */
+.stateBox {
+  padding: var(--space-16);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-md);
+  text-align: center;
+  color: var(--color-subtext);
+  display: grid;
+  gap: var(--space-6);
+  place-items: center;
+}
+
+.error {
+  color: var(--color-danger);
+}

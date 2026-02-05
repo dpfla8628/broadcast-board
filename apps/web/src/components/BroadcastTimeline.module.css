@@ -1,0 +1,21 @@
+/* why: UI 일관성과 가독성을 위해 스타일 의도를 명시 */
+.timeline {
+  display: grid;
+  gap: var(--space-12);
+}
+
+.group {
+  display: grid;
+  gap: var(--space-8);
+}
+
+.hourLabel {
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--space-10);
+}

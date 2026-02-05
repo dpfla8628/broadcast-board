@@ -1,0 +1,27 @@
+# Node / Next
+node_modules/
+.next/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Playwright
+**/storage_state.json
+**/.playwright/

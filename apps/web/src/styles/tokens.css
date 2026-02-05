@@ -1,0 +1,48 @@
+/* why: UI 일관성과 가독성을 위해 스타일 의도를 명시 */
+:root {
+  /* Light theme (default) */
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-card: #f1f5f9;
+  --color-text: #0f172a;
+  --color-subtext: #475569;
+  --color-accent: #2563eb;
+  --color-accent-soft: rgba(37, 99, 235, 0.12);
+  --color-danger: #dc2626;
+  --color-border: rgba(15, 23, 42, 0.12);
+
+  --font-base: "Inter", "Pretendard", system-ui, sans-serif;
+  --font-size-base: 16px;
+
+  --space-2: 4px;
+  --space-4: 8px;
+  --space-6: 12px;
+  --space-8: 16px;
+  --space-10: 20px;
+  --space-12: 24px;
+  --space-16: 32px;
+  --space-20: 40px;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 8px 20px rgba(15, 23, 42, 0.12);
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --color-bg: #0f172a;
+  --color-surface: #111827;
+  --color-card: #1f2937;
+  --color-text: #f9fafb;
+  --color-subtext: #cbd5f5;
+  --color-accent: #38bdf8;
+  --color-accent-soft: rgba(56, 189, 248, 0.18);
+  --color-danger: #f87171;
+  --color-border: rgba(148, 163, 184, 0.2);
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.3);
+}

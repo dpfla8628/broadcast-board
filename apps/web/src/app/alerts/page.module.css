@@ -1,0 +1,20 @@
+/* why: UI 일관성과 가독성을 위해 스타일 의도를 명시 */
+.page {
+  display: grid;
+  gap: var(--space-12);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  margin: var(--space-4) 0 0;
+  color: var(--color-subtext);
+}
