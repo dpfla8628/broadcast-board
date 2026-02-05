@@ -10,7 +10,8 @@
 
 ## 미리보기
 ![서비스 구성도](docs/screenshots/overview.svg)
-![UI 미리보기](docs/screenshots/ui-placeholder.svg)
+<img width="1407" height="695" alt="스크린샷 2026-02-05 오후 3 25 49" src="https://github.com/user-attachments/assets/8df9a3b9-1d54-4a21-bc15-ceb0a5a4ddfa" />
+
 
 ## 이 프로젝트가 왜 필요한가
 - 홈쇼핑 편성표는 채널마다 흩어져 있어 “지금 뭐가 방송 중인지” 확인이 어렵습니다.
